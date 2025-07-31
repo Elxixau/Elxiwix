@@ -2,7 +2,7 @@ import { ArrowUpTrayIcon } from "@heroicons/react/24/outline";
 
 export default function CardProject({ image, title, description, technologies = [], onNavigate }) {
   return (
-    <div className="relative rounded-3xl border border-gray-800 overflow-hidden shadow-lg bg-black max-w-sm group hover:shadow-[0_0_12px_4px_rgba(34,197,94,0.5)] transition-all duration-300">
+    <div className="relative rounded-3xl border border-gray-800 overflow-hidden shadow-lg bg-black   group hover:shadow-[0_0_12px_4px_rgba(34,197,94,0.5)] transition-all duration-300">
       {/* Gambar */}
       <div className="relative">
         <img

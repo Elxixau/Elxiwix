@@ -52,7 +52,7 @@ const projects = [
     image: elxiwixImg,
     technologies: ["React", "Tailwind"],
     link: "/project/elxiwix",
-    description: "Aplikasi manajemen kendaraan pribadi dan perusahaan dengan fitur pencatatan lengkap.",
+    description: "Landing Page pribadi sebagai portofolio diri.",
   },
 ];
 

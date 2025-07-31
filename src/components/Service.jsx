@@ -37,10 +37,15 @@ const services = [
 export default function Services() {
   return (
     <div className="  p-4 sm:p-8 max-w-7xl mx-auto text-center" id="layanan">
-      <h1 className="text-2xl p-4  sm:text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-green-400 to-emerald-600 mb-4">Layanan Kami</h1>
-            <p className="text-gray-400 text-lg mb-14">
-          Kami hadir dengan layanan yang menyeluruh mulai dari pengembangan aplikasi web, desain visual, hingga strategi digital yang sesuai dengan kebutuhan Anda.
-        </p>
+        <div className="text-center px-4 sm:px-6 lg:px-8">
+            <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-green-400 to-emerald-600 mb-4">
+                Layanan
+            </h1>
+            <p className="text-gray-400 text-base sm:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto mb-14">
+                Kami hadir dengan layanan yang menyeluruh, mulai dari pengembangan aplikasi web, desain visual, hingga strategi digital yang sesuai dengan kebutuhan Anda.
+            </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((service, index) => (
             <div
