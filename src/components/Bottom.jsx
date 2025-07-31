@@ -1,6 +1,6 @@
 export default function Bottom() {
   return (
-    <footer className="bg-black text-gray-400 py-8">
+    <footer className=" bg-black/10 backdrop-blur text-gray-400 py-8">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Brand or Name */}
