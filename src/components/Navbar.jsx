@@ -160,7 +160,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="lg:hidden mt-4 space-y-2 text-white bg-black/80 rounded-lg p-4 shadow-lg">
+          <div className="flex flex-col lg:hidden mt-4 space-y-2 text-white bg-black/80 rounded-lg p-4 shadow-lg">
                {menuItems.map((item) => (
             <a
               key={item.label}
