@@ -12,7 +12,7 @@ export default function Bussiness () {
                     <button
                         onClick={() => {
                             window.location.href =
-                            "https://wa.me/6288704442416?text=Halo%2C%20saya%20ingin%20melakukan%20kerja%20sama%20dengan%20anda";
+                            "https://wa.me/6288704442416?text=Halo%20saya%20[Nama]%2C%20ingin%20melakukan%20kerja%20sama%20dengan%20anda%20dalam%20pembuatan%20project%20[Website/Design]";
                         }}
                         className="w-full sm:w-auto px-6 py-3 rounded font-medium bg-green-400 hover:bg-green-300 text-black transition"
                         >
